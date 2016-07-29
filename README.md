@@ -12,5 +12,6 @@ Refer to [official README](./README_official.md) for the official README and ins
 ### Prepare Data
 
 1. Download [WIDER FACE dataset](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/)
+2. [Flatten](./scripts/flatten.py) `WIDER_train/images/*` 
 
 
