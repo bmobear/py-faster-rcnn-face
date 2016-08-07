@@ -6,6 +6,7 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
 
 ## Contents
 1. [Prepare Data](#prepare-data)
+2. [Modify Existing Code](#modify-existing-code)
 
 ---
 
@@ -24,6 +25,22 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
    
     `[xmin' ymin' xmax' ymax'] = scale*[xmin ymin xmin+bb_width ymin+bb_height]`
 
+5. `optional` Organize data as follows:
+   
+    ```
+    $WIDER/
+      +-- img/
+      |    +-- img_1.jpg
+      |    +-- img_2.jpg
+      |        ...
+      +-- annt/
+      |    +-- img_1.json
+      |    +-- img_2.json
+      |        ...
+   ```
+      
+
+### Modify Existing Code
 
 
 
