@@ -25,7 +25,9 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
    
     `[xmin' ymin' xmax' ymax'] = scale*[xmin ymin xmin+bb_width ymin+bb_height]`
 
-5. `optional` Organize data as follows:
+5. Repeat 1-4 on `WIDER_val`
+6. [Generate](TBA) `train.txt` and `val.txt`
+7. Organize data as follows:
    
     ```
     WIDER_data/
@@ -37,6 +39,8 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
       |    +-- img_1.json
       |    +-- img_2.json
       |        ...
+      +-- train.txt
+      +-- val.txt
    ```
       
 
