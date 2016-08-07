@@ -28,7 +28,7 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
 5. `optional` Organize data as follows:
    
     ```
-    $WIDER/
+    WIDER_data/
       +-- img/
       |    +-- img_1.jpg
       |    +-- img_2.jpg
