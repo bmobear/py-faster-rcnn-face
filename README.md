@@ -55,8 +55,8 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
 
 
 Now we have the following structure
-   
-    ```
+
+
     WIDER_ROOT/
       +-- wider_processed_data
       |    +-- img/
@@ -69,7 +69,7 @@ Now we have the following structure
       |    |        ...
       |    +-- train.txt
       |    +-- val.txt
-    ```
+
 
 ### Modify Existing Code
 
