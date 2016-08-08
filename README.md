@@ -54,7 +54,7 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
 6. Repeat 3-6 on the validation set `WIDER_val/`
 
 
-Now we have the following structure
+At the end we have the following structure
 
 
     WIDER_ROOT/
