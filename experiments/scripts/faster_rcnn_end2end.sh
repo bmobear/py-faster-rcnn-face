@@ -1,7 +1,7 @@
 #!/bin/bash
 # Usage:
 # ./experiments/scripts/faster_rcnn_end2end.sh GPU NET DATASET [options args to {train,test}_net.py]
-# DATASET is either pascal_voc or coco.
+# DATASET is either pascal_voc or coco or wider.
 #
 # Example:
 # ./experiments/scripts/faster_rcnn_end2end.sh 0 VGG_CNN_M_1024 pascal_voc \
@@ -37,6 +37,12 @@ case $DATASET in
     TEST_IMDB="coco_2014_minival"
     PT_DIR="coco"
     ITERS=490000
+    ;;
+  wider)
+    TRAIN_IMDB="wider_trainval"
+    TEST_IMDB="wider_test"
+    PT_DIR="wider"
+    ITERS=100000 # TO BE UPDATED
     ;;
   *)
     echo "No dataset given"
