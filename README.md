@@ -6,7 +6,8 @@ Refer to [official README](./README_official.md) for the official Faster R-CNN R
 
 ## Contents
 1. [Prepare Data](#prepare-data)
-2. [Modify Existing Code](#modify-existing-code)
+2. [Prepare Caffe Model](#prepare-caffe-model)
+3. [Modify Existing Code](#modify-existing-code)
 
 ---
 
@@ -69,6 +70,9 @@ At the end we have the following structure
       |    |        ...
       |    +-- train.txt
       |    +-- val.txt
+
+
+### Prepare Caffe Model
 
 
 ### Modify Existing Code
